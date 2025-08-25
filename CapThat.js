@@ -11,4 +11,12 @@ const captionArray = [
   "Get this hair off my head!",
   "Oooh that must have hurt."
 ];
+// --- تشغيل الدوال ---
+//// هذا يسمح لنا بالتحكم في الزر باستخدام جافا سكريبت.
+
+const generatorButton = document.getElementById("generator-button");
+// يربط المتغير randomMeme بعنصر الصورة العشوائية
+const randomMeme = document.getElementById("random-meme");
+// يربط المتغير randomCaption بعنصر التسمية التوضيحية العشوائية
+const randomCaption = document.getElementById("random-caption");
 
